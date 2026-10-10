@@ -112,3 +112,29 @@ li{margin-bottom:6px;max-width:68ch}
 h1.small{font-size:clamp(34px,5vw,52px)}
 .pagehead .lead{margin:12px 0 0}
 @media (max-width:760px){.nav nav{display:flex;gap:12px}.nav{flex-direction:column;align-items:flex-start;padding:10px 16px}.nav nav a{font-size:13px}}
+
+/* professional header, logos, pictures */
+.brand{color:var(--accent-ink)}
+.nav nav a{padding:6px 12px;border-radius:8px}
+.nav nav a.on{background:var(--tint);border-bottom:0;color:var(--accent-ink)}
+.center{text-align:center}
+.hero{padding:84px 0 0;border-bottom:8px solid var(--accent);background:radial-gradient(circle at 1px 1px,rgba(90,157,184,.25) 1.3px,transparent 1.7px) 0 0/14px 14px,linear-gradient(180deg,#E3EFF5,#F5F9FB)}
+.hero h1{font-size:clamp(34px,7vw,70px);text-transform:uppercase;letter-spacing:.05em}
+.bar{display:block;width:min(560px,70%);height:6px;margin:22px auto;background:var(--accent);border-radius:2px}
+.tagline{margin:0 auto 18px;font:400 clamp(17px,2.4vw,24px) var(--serif);color:#3F5360;max-width:none}
+.hero .lead{margin:0 auto 28px;font-size:17px}
+.hero .actions{justify-content:center}
+.social{margin:22px auto 0;display:flex;justify-content:center;gap:22px;max-width:none}
+.social a{font-weight:600;font-size:15px;text-decoration:none}
+.social a:hover{text-decoration:underline}
+.hero .ecg{margin-top:28px;height:70px}
+.ecg path{opacity:.55}
+.pagehead{text-align:center;padding:56px 0 28px;border-bottom:6px solid var(--accent)}
+.pagehead h1.small{text-transform:uppercase;letter-spacing:.05em}
+.pagehead .bar{width:min(240px,50%);height:5px;margin:16px auto}
+.pagehead .lead{margin:0 auto}
+.withlogo{display:flex;gap:16px;align-items:flex-start}
+.withlogo>div{min-width:0}
+.logo{flex:none;width:64px;height:64px;object-fit:contain;background:#fff;border:1px solid var(--line);border-radius:12px;padding:6px}
+.pic{margin:14px 0 0;max-width:440px}
+.pic img{display:block;width:100%;height:auto;border-radius:10px;border:1px solid var(--line)}
