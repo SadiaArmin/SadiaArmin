@@ -4,226 +4,34 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Academic and research portfolio of Sadia Armin Diba, Biomedical Engineering student at BUET.">
-<title>Sadia Armin Diba | Biomedical Engineering</title>
+<title>Home | Sadia Armin Diba</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <header class="nav">
-  <a class="brand" href="#top">Sadia Armin Diba</a>
-  <nav id="menu">
-    <a href="#about">About</a>
-    <a href="#research">Research</a>
-    <a href="#projects">Projects</a>
-    <a href="#experience">Experience</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
-  </nav>
+<a class="brand" href="index.html">Sadia Armin Diba</a>
+<nav><a href="index.html" class=on>Home</a><a href="resume.html">Resume</a><a href="research.html">Research</a><a href="projects.html">Projects</a><a href="contact.html">Contact</a></nav>
 </header>
-
-<main id="top">
-
-<section class="hero">
-  <div class="wrap">
-    <p class="role">Biomedical Engineering, BUET</p>
-    <h1>Sadia Armin Diba</h1>
-    <p class="lead">I model blood flow in coronary arteries and train machine learning surrogates to predict plaque rupture risk, aiming at faster patient-specific cardiovascular assessment.</p>
-    <div class="actions">
-      <a class="btn primary" href="mailto:sadiaarmindiba@gmail.com">Email me</a>
-      <a class="btn" href="https://linkedin.com/in/sadia-armin-diba" target="_blank" rel="noopener">LinkedIn</a>
-      <a class="btn" href="https://github.com/SadiaArmin" target="_blank" rel="noopener">GitHub</a>
-      <a class="btn" href="assets/cv.pdf" target="_blank" rel="noopener">Download CV</a>
-    </div>
-  </div>
-  <svg class="ecg" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true">
-    <path id="ecgPath" d="M0 70 H180 L200 70 L215 40 L232 98 L248 18 L266 84 L282 70 H470 L488 70 L503 46 L520 94 L536 24 L554 80 L570 70 H760 L778 70 L793 44 L810 96 L826 20 L844 82 L860 70 H1200"/>
-  </svg>
+<main>
+<section class="hero"><div class="wrap center">
+<h1>Sadia Armin Diba</h1>
+<span class="bar"></span>
+<p class="tagline">Biomedical Engineering Student | Researcher | BUET</p>
+<p class="lead">I model blood flow in coronary arteries and train machine learning surrogates to predict plaque rupture risk.</p>
+<div class="actions">
+<a class="btn primary" href="assets/cv.pdf" target="_blank" rel="noopener">Curriculum Vitae</a>
+<a class="btn" href="contact.html">Contact</a>
+</div>
+<p class="social"><a href="https://linkedin.com/in/sadia-armin-diba" target="_blank" rel="noopener">LinkedIn</a><a href="https://github.com/SadiaArmin" target="_blank" rel="noopener">GitHub</a><a href="mailto:sadiaarmindiba@gmail.com">Email</a></p>
+</div>
+<svg class="ecg" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true"><path id="ecgPath" d="M0 70 H180 L200 70 L215 40 L232 98 L248 18 L266 84 L282 70 H470 L488 70 L503 46 L520 94 L536 24 L554 80 L570 70 H760 L778 70 L793 44 L810 96 L826 20 L844 82 L860 70 H1200"/></svg>
 </section>
-
-<section id="about" class="block">
-  <div class="wrap grid">
-    <h2>About</h2>
-    <div>
-      <p>I am a Biomedical Engineering undergraduate at Bangladesh University of Engineering and Technology (BUET) with a CGPA of 3.86/4.00 (up to the 6th semester). My work sits between cardiovascular mechanics, computational fluid dynamics and machine learning.</p>
-      <p>I am applying for Master's and PhD programs in the USA, and I am looking for research groups working on hemodynamics, medical image-based modeling and data-driven biomechanics.</p>
-      <h3>Research interests</h3>
-      <ul class="chips">
-        <li>Cardiovascular mechanics and hemodynamics</li>
-        <li>Plaque rupture risk analysis</li>
-        <li>Computational fluid dynamics (CFD)</li>
-        <li>Medical image segmentation</li>
-        <li>Machine learning for hemodynamic modeling</li>
-        <li>Surrogate biomechanical modeling</li>
-      </ul>
-      <h3>Education</h3>
-      <div class="item">
-        <div class="when">Nov 2022 – Expected July 2027</div>
-        <div>
-          <strong>Bangladesh University of Engineering and Technology (BUET)</strong>
-          <p>B.Sc. in Biomedical Engineering, Dhaka, Bangladesh. CGPA 3.86/4.00.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="research" class="block tint">
-  <div class="wrap grid">
-    <h2>Research</h2>
-    <div>
-      <article class="feature">
-        <div class="when">Undergraduate thesis, July 2026 – ongoing</div>
-        <h3>Patient-specific CFD-based hemodynamic analysis and machine learning prediction of coronary artery flow patterns associated with plaque formation and rupture risk</h3>
-        <ul>
-          <li>Investigating hemodynamic markers linked to plaque formation and rupture, to support patient-specific cardiovascular risk assessment.</li>
-          <li>Running patient-specific transient CFD simulations on 3D-reconstructed coronary CTA geometries to characterize wall shear stress (WSS), with OSI and RRT analysis planned.</li>
-          <li>Segmenting medical images and reconstructing coronary geometry in Materialise Mimics and 3-matic, then simulating in ANSYS Fluent.</li>
-          <li>Generating flow-sensitive geometry variations with MorphMan to augment datasets for machine learning.</li>
-          <li>Developing a deep learning surrogate to predict coronary hemodynamic fields and derived risk parameters efficiently.</li>
-        </ul>
-        <div class="tags"><span>ANSYS Fluent</span><span>Mimics</span><span>3-matic</span><span>MorphMan</span><span>Deep learning</span></div>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section id="projects" class="block">
-  <div class="wrap grid">
-    <h2>Projects</h2>
-    <div class="cards">
-
-      <article class="card">
-        <figure class="shot s1">
-          <img src="assets/neonest.png" alt="NeoNest prototype" loading="lazy" onerror="this.remove()">
-          <span>Capstone</span>
-        </figure>
-        <div class="when">April 2025 – April 2026</div>
-        <h3>NeoNest: smart infant thermal management system</h3>
-        <p>A low-cost neonatal transport system that helps keep infants at a safe body temperature and monitors them continuously, designed for resource-limited settings.</p>
-        <ul>
-          <li>Built an Arduino UNO prototype with DS18B20 temperature sensors, MAX30102, MPU6050, OLED display and HC-05 Bluetooth for closed-loop thermal monitoring.</li>
-          <li>Wrote safety alert logic and evaluated heating-pad thermal distribution with multi-sensor arrays and thermal imaging.</li>
-        </ul>
-        <div class="tags"><span>Arduino</span><span>Sensors</span><span>Thermal imaging</span></div>
-      </article>
-
-      <article class="card">
-        <figure class="shot s2">
-          <img src="assets/baroreflex.png" alt="Baroreflex simulation result" loading="lazy" onerror="this.remove()">
-          <span>Simulation</span>
-        </figure>
-        <div class="when">Dec 2025 – May 2026</div>
-        <h3>Cardiovascular baroreflex system simulation</h3>
-        <p>A validated baroreflex model that evaluates Starling-curve responses at varying carotid sinus pressures and simulates acute hemorrhage (20% blood loss).</p>
-        <ul>
-          <li>Implemented a 4-subsystem Simulink model based on Ursino (1999), solving non-linear differential equations for cardiac output, systemic circulation and baroreceptor feedback.</li>
-        </ul>
-        <div class="tags"><span>MATLAB</span><span>Simulink</span></div>
-        <a class="link" href="https://github.com/SadiaArmin/Cardiovascular-Baroreflex-Simulink" target="_blank" rel="noopener">View on GitHub</a>
-      </article>
-
-      <article class="card">
-        <figure class="shot s3">
-          <img src="assets/ppg.png" alt="PPG respiratory rate result" loading="lazy" onerror="this.remove()">
-          <span>Signal processing</span>
-        </figure>
-        <div class="when">Dec 2025 – May 2026</div>
-        <h3>Respiratory rate estimation from PPG signals</h3>
-        <p>Respiratory rate extracted from noisy PPG signals on the BIDMC dataset using Kaiser-window filtering, the Hilbert transform and spectral density estimation.</p>
-        <ul>
-          <li>MAE 0.88 BPM, RMSE 1.60 BPM, r = 0.86, and 86.8% of estimates within ±2 BPM.</li>
-        </ul>
-        <div class="tags"><span>MATLAB</span><span>Signal processing</span></div>
-        <a class="link" href="https://github.com/SadiaArmin/PPG-Respiratory-Rate-Estimation" target="_blank" rel="noopener">View on GitHub</a>
-      </article>
-
-      <article class="card">
-        <figure class="shot s4">
-          <img src="assets/mura.png" alt="X-ray classification" loading="lazy" onerror="this.remove()">
-          <span>Deep learning</span>
-        </figure>
-        <div class="when">Aug 2024 – Jan 2025</div>
-        <h3>Musculoskeletal X-ray abnormality detection</h3>
-        <p>A deep learning system that detects abnormalities in upper-limb X-ray images from the MURA dataset.</p>
-        <ul>
-          <li>Trained DenseNet121, InceptionResNetV2 and EfficientNet models for multi-region classification, reaching 70–80% accuracy.</li>
-        </ul>
-        <div class="tags"><span>Python</span><span>CNNs</span><span>MURA</span></div>
-      </article>
-
-    </div>
-  </div>
-</section>
-
-<section id="experience" class="block tint">
-  <div class="wrap grid">
-    <h2>Experience and awards</h2>
-    <div>
-      <div class="item">
-        <div class="when">June 2026</div>
-        <div>
-          <strong>Research Intern, BCSIR</strong>
-          <p class="muted">Bangladesh Council of Scientific and Industrial Research, Dhaka</p>
-          <ul>
-            <li>Gained laboratory exposure to analytical workflows, observing HPLC, UPLC, GC, Karl Fischer titration, DSC and TGA.</li>
-            <li>Observed molecular-biology protocols and equipment including PCR, DNA sequencing, biosafety cabinets, fermenters, incubators, rotary evaporators and freeze dryers.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="item">
-        <div class="when">Dec 2025</div>
-        <div><strong>3rd place, Project Presentation Competition</strong>
-        <p class="muted">10th Anniversary Celebration, Department of Biomedical Engineering, BUET</p></div>
-      </div>
-      <div class="item">
-        <div class="when">Level 1, 2023</div>
-        <div><strong>Dean's List Award, BUET</strong>
-        <p class="muted">Recognized for outstanding academic performance</p></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="skills" class="block">
-  <div class="wrap grid">
-    <h2>Skills</h2>
-    <div>
-      <dl class="skills">
-        <dt>Simulation and modeling</dt><dd>ANSYS Fluent, MATLAB/Simulink, CFD, Materialise Mimics, 3-matic, MorphMan</dd>
-        <dt>Machine learning and computing</dt><dd>Python, MATLAB, machine learning, deep learning</dd>
-        <dt>Signal and image processing</dt><dd>MATLAB Signal Processing and Image Processing toolboxes</dd>
-        <dt>Analytical and laboratory</dt><dd>HPLC, UPLC, GC, PCR, DNA sequencing</dd>
-        <dt>Hardware and embedded</dt><dd>Arduino, ATmega32, DS18B20, MAX30102, MPU6050</dd>
-      </dl>
-      <h3>Relevant coursework</h3>
-      <ul class="chips">
-        <li>Anatomy</li><li>Physiology</li><li>Biomechanics</li><li>Bio-fluid mechanics</li>
-        <li>Medical imaging systems</li><li>Biomedical signal processing</li><li>Digital signal processing</li><li>Machine learning for healthcare</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section id="contact" class="block tint">
-  <div class="wrap grid">
-    <h2>Contact</h2>
-    <div>
-      <p>I am happy to talk about research opportunities, collaborations and graduate programs.</p>
-      <p class="contact-list">
-        <a href="mailto:sadiaarmindiba@gmail.com">sadiaarmindiba@gmail.com</a><br>
-        <a href="https://linkedin.com/in/sadia-armin-diba" target="_blank" rel="noopener">linkedin.com/in/sadia-armin-diba</a><br>
-        <a href="https://github.com/SadiaArmin" target="_blank" rel="noopener">github.com/SadiaArmin</a><br>
-        Dhaka, Bangladesh
-      </p>
-    </div>
-  </div>
-</section>
-
+<section class="block"><div class="wrap grid"><h2>About me</h2><div><p>I am an undergraduate in Biomedical Engineering at Bangladesh University of Engineering and Technology (BUET). My work sits between cardiovascular mechanics, computational fluid dynamics and machine learning.</p><p>I am applying for Master's and PhD programs in the USA and I am looking for research groups working on hemodynamics, image-based modeling and data-driven biomechanics.</p><h3>Research interests</h3><ul class="chips"><li>Cardiovascular mechanics and hemodynamics</li><li>Plaque rupture risk analysis</li><li>Computational fluid dynamics (CFD)</li><li>Medical image segmentation</li><li>Machine learning for hemodynamic modeling</li><li>Surrogate biomechanical modeling</li></ul></div></div></section><section class="block tint"><div class="wrap grid"><h2>Education</h2><div><div class="item"><div class="when">Nov 2022 – Expected July 2027</div><div class="withlogo"><img class="logo" src="assets/buet.svg" alt="BUET logo" onerror="this.remove()"><div><strong>Bangladesh University of Engineering and Technology (BUET)</strong><p>Undergraduate: B.Sc. in Biomedical Engineering, Dhaka, Bangladesh. CGPA 3.86/4.00 (up to the 6th semester).</p></div></div></div>
+<div class="item"><div class="when">2021</div><div class="withlogo"><img class="logo" src="assets/holycross.svg" alt="Holy Cross College logo" onerror="this.remove()"><div><strong>Holy Cross College</strong><p>Higher Secondary Certificate (HSC). GPA 5.00/5.00.</p></div></div></div></div></div></section>
 </main>
-
 <footer class="foot">© <span id="year"></span> Sadia Armin Diba</footer>
 <script src="script.js"></script>
 </body>
