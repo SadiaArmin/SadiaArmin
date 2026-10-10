@@ -1,1 +1,25 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Academic and research portfolio of Sadia Armin Diba, Biomedical Engineering student at BUET.">
+<title>Projects | Sadia Armin Diba</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+<a class="brand" href="index.html">Sadia Armin Diba</a>
+<nav><a href="index.html">Home</a><a href="resume.html">Resume</a><a href="research.html">Research</a><a href="projects.html" class=on>Projects</a><a href="contact.html">Contact</a></nav>
+</header>
+<main>
+<section class="pagehead"><div class="wrap"><h1 class="small">Projects</h1><p class="lead">Capstone, simulation and machine learning work.</p></div></section>
+<section class="block"><div class="wrap"><div class="cards"><article class="card"><figure class="shot s1"><img src="assets/neonest.png" alt="NeoNest: smart infant thermal management system" loading="lazy" onerror="this.remove()"><span>Capstone</span></figure><div class="when">April 2025 – April 2026</div><h3>NeoNest: smart infant thermal management system</h3><p>A low-cost neonatal transport system that keeps infants at a safe body temperature and monitors them continuously, designed for resource-limited settings.</p><ul><li>Built an Arduino UNO prototype with DS18B20, MAX30102, MPU6050, OLED display and HC-05 Bluetooth for closed-loop thermal monitoring.</li><li>Wrote safety alert logic and evaluated heating-pad thermal distribution with multi-sensor arrays and thermal imaging.</li></ul><div class="tags"><span>Arduino</span><span>Sensors</span><span>Thermal imaging</span></div></article><article class="card"><figure class="shot s2"><img src="assets/baroreflex.png" alt="Cardiovascular baroreflex system simulation" loading="lazy" onerror="this.remove()"><span>Simulation</span></figure><div class="when">Dec 2025 – May 2026</div><h3>Cardiovascular baroreflex system simulation</h3><p>A validated baroreflex model that evaluates Starling-curve responses at varying carotid sinus pressures and simulates acute hemorrhage (20% blood loss).</p><ul><li>Implemented a 4-subsystem Simulink model based on Ursino (1999), solving non-linear differential equations for cardiac output, systemic circulation and baroreceptor feedback.</li></ul><div class="tags"><span>MATLAB</span><span>Simulink</span></div><a class="link" href="https://github.com/SadiaArmin/Cardiovascular-Baroreflex-Simulink" target="_blank" rel="noopener">View on GitHub</a></article><article class="card"><figure class="shot s3"><img src="assets/ppg.png" alt="Respiratory rate estimation from PPG signals" loading="lazy" onerror="this.remove()"><span>Signal processing</span></figure><div class="when">Dec 2025 – May 2026</div><h3>Respiratory rate estimation from PPG signals</h3><p>Respiratory rate extracted from noisy PPG signals on the BIDMC dataset using Kaiser-window filtering, the Hilbert transform and spectral density estimation.</p><ul><li>MAE 0.88 BPM, RMSE 1.60 BPM, r = 0.86, and 86.8% of estimates within ±2 BPM.</li></ul><div class="tags"><span>MATLAB</span><span>Signal processing</span></div><a class="link" href="https://github.com/SadiaArmin/PPG-Respiratory-Rate-Estimation" target="_blank" rel="noopener">View on GitHub</a></article><article class="card"><figure class="shot s4"><img src="assets/mura.png" alt="Musculoskeletal X-ray abnormality detection" loading="lazy" onerror="this.remove()"><span>Deep learning</span></figure><div class="when">Aug 2024 – Jan 2025</div><h3>Musculoskeletal X-ray abnormality detection</h3><p>A deep learning system that detects abnormalities in upper-limb X-ray images from the MURA dataset.</p><ul><li>Trained DenseNet121, InceptionResNetV2 and EfficientNet models for multi-region classification, reaching 70–80% accuracy.</li></ul><div class="tags"><span>Python</span><span>CNNs</span><span>MURA</span></div></article></div></div></section>
+</main>
+<footer class="foot">© <span id="year"></span> Sadia Armin Diba</footer>
+<script src="script.js"></script>
+</body>
+</html>
